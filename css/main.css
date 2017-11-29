@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Indie Flower', cursive;
+    font-style: normal;
 
   }
 
@@ -86,9 +87,10 @@
    font-size: 20px;
    background-color: #f6a831;
    border-radius: 30px;
-   width: 120px;
+   width: 200px;
    text-align: center;
    margin-left: 150px;
+   border: none;
  }
 
  select:focus {

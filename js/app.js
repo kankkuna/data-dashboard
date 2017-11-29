@@ -11,7 +11,7 @@ window.addEventListener('load', function() {
   pag.classList.add('divesecond');
   cli.innerHTML = 'New Heading';*/
 
-  var boton = document.getElementById('cono');
+  var boton = document.getElementById('cono1');
   boton.addEventListener('click', function(event) {
     event.preventDefault();
     var olddiv = document.getElementById('principal');
@@ -20,6 +20,7 @@ window.addEventListener('load', function() {
     newdiv.classList.add('mostrar');
     /*papa.appendChild('newdiv');
     NECESITO QUE LOS DIV SE INTERCAMBIEN*/
+
     
   });
 });
