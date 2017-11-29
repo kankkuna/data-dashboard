@@ -1,24 +1,108 @@
 /*
  * Estilos de tu proyecto
  */
-nav {
-  background-color: #f6a831;
-}
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
 
-li {
-  list-style: none;
-}
+  }
 
-nav {
-  text-align: left;
-}
-nav li {
-  margin-top: 15px;
-}
+  .coders img {
+    width: 40px;
+    margin-left: -5px;
 
-.laboratoria {
-  display: inline-block;
-  margin-left: 550px;
-  margin-top: 20px;
-  height: 100px;
+
+  }
+
+ nav {
+   background-color: #f6a831;
+ }
+
+ li {
+   list-style: none;
+   color: white;
+   opacity: 0.7;
+ }
+
+ .little-photo img{
+   margin-top: 5px;
+   width: 70px;
+   margin-left: -5px;
+   border-radius: 150px;
+ }
+
+ nav {
+   text-align: left;
+   width: 100px;
+   border-radius: 20px;
+   position: fixed;
+   margin-top: 30px;
+
+ }
+
+ nav ul {
+   margin-left: 20px;
+   margin-bottom: 10px;
+
+ }
+
+ nav li {
+   margin-top: 8px;
+
+ }
+
+ .laboratoria  {
+   margin-left: 10px;
+   width: 200px;
+   margin-top: 0px;
+
+ }
+
+ .head {
+  margin-top: 0;
+  height: 70px;
+ }
+
+ h1 {
+   text-align: center;
+   margin-top: 0px;
+
+ }
+
+ .principal1 {
+   margin-left: 120px;
+   margin-top: 60px;
+
+ }
+
+ .grafic {
+   margin-top: 0px;
+   width: 300px;
+ }
+
+ select {
+   font-size: 20px;
+   background-color: #f6a831;
+   border-radius: 30px;
+   width: 120px;
+   text-align: center;
+   margin-left: 150px;
+ }
+
+ select:focus {
+   outline: none;
+   border: none;
+ }
+ .two1{
+   display: none;
+   margin-left: 120px;
+   margin-top: 60px;
+ }
+ .ocultar{
+   display: none;
+ }
+.mostrar{
+  display: block;
 }
