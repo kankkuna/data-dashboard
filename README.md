@@ -33,6 +33,8 @@ cada posible vista de las opciones de navegación que podría tener el futuro us
 ### Primeras vistas maquetadas de proyecto
 ![](assets/Maquetado/maqueta1.png)
 
+![](assets/Maquetado/vista coders.png)
+
 
 
 ___
