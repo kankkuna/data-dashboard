@@ -118,14 +118,6 @@
  nav ul li:hover > ul {
    display: inherit;
 }
-
-/*section {
-   width: 100px;
-   height: 100px;
-   background-color: red;
-   margin-left: 500px;
- }*/
-
   /*diseño de iconos*/
 /*karina*/
 .filters-data {
@@ -143,3 +135,10 @@
   margin-top: 90px;
   display: inline-block;
  }
+
+
+/*CONTENIDO DE LA PAGINA*/
+section img {
+ margin-left: 200px;
+ width: 100%;
+}
