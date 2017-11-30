@@ -21,11 +21,11 @@ window.addEventListener('load', function() {
     /*papa.appendChild('newdiv');
 });
 */
-
-window.addEventListener('load', function() {
+window.addEventListener('load', function(){
 
  //variables por sede
- var lima = data.LIM;
+
+var lima = data.LIM;
  var arequipa = data.AQP;
  var mexico = data.CDMX;
  var chile = data.SCL;
@@ -54,4 +54,10 @@ window.addEventListener('load', function() {
  var coder1scl = data.SCL['2016-2']['students'];
  var coder2scl = data.SCL['2017-1']['students'];
  var coder3scl = data.SCL['2017-2']['students'];
-});
+
+ var botonCoder = document.getElementById('coco');
+
+botonCoder.addEventListener('click', function(event) {
+
+}
+}
