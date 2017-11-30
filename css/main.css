@@ -1,4 +1,4 @@
- /*
+﻿ /*
  * Estilos de tu proyecto
  */
  *{
@@ -135,8 +135,8 @@
   display: inherit;
 }
 
- section {
-  width: 100px;
-  height: 100px;
-  background-color: red;
- }
+ 
+section img {
+width: 100px;
+   height: 100px;
+}
