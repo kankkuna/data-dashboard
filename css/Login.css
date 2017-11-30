@@ -3,62 +3,38 @@ body
   margin: 0;
   padding: 0;
   background-color: white;
-  background-size :cover;
+  background-size:cover;
   font-family: sans-serif;
 }
 
 .loginBox {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 350px;
-  height: 420px;
-  padding: 80px 40px;
-  box-sizing: border-box;
-  border-radius: 15px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:350px;
+  height:420px;
+  padding:80px 40px;
+  box-sizing:border-box;
+  border-radius:15px;
   background: #ffd01bad;
-  box-shadow: rgb(77, 104, 117) 0 0px 20px -1px;
-  opacity: 0.5;
+  box-shadow:rgb(77, 104, 117) 0 0px 20px -1px;
 }
-
 
 .Sign {
-<<<<<<< HEAD
-
-  box-shadow: inset 0px 1px 0px 0px #fbafe3;
-  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
-  background-color: #ffa000;
-  -webkit-border-radius: 9px;
-  border: 1px solid #ee1eb5;
-  display: inline-block;
-  height: 40px;
-  line-height: 36px;
-  width: 100px;
-  /*text-decoration: none;*/
-  text-align: center;
-  text-shadow: 1px 1px 0px #c70067;
-
-}
-
-.user
-{
-=======
- box-shadow: inset 0px 1px 0px 0px #ffef22;
- background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FFC107), color-stop(1, #FF5722) );
- background-color: #FFC107;
- -webkit-border-radius: 9px;
- border: 1px solid #d48b07;
- display: inline-block;
- height: 40px;
- line-height: 36px;
- width: 100px;
- text-align: center;
- text-shadow: 1px 1px 0px #c70067;
-}
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FFEB3B), color-stop(1, #FF9800) );
+  background-color: #FF5722;
+  -webkit-border-radius:9px;
+  border: 1px solid #ffc107;
+  display:inline-block;
+  height:40px;
+  line-height:36px;
+  width:100px;
+  text-align:center;
+  text-shadow:1px 1px 0px #FF9800;
+  }
 
 .user {
->>>>>>> 1ea42dc7bc4ea32a936730efa4a1256d78d8e13d
   width: 100px;
   height: 100px;
   border-radius:50%;

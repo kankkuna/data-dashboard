@@ -21,5 +21,18 @@
 3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
    (puedes solicitar apoyo de tus profes para este paso).
 
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+___
+## Contenido
+
+Este proyecto contiene:
+
+1. Un archivo  **`README.md`** que explica el contenido del repositorio.
+
+2. Tres carpetas `assets` `css` `js` donde se encuentra las imágenes, hojas de estilo css y data, utilizadas en el trabajo.
+
+## Autora
+Karina Julissa Buhezo Flores.
+Kattia Rojas Arohuanca.
+
+## Fecha
+30/11/2017
