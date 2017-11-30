@@ -7,8 +7,7 @@ body
   font-family: sans-serif;
 }
 
-.loginBox
-{
+.loginBox {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -18,13 +17,14 @@ body
   padding: 80px 40px;
   box-sizing: border-box;
   border-radius: 15px;
-  background: #00BCD4;
+  background: #ffd01bad;
   box-shadow: rgb(77, 104, 117) 0 0px 20px -1px;
   opacity: 0.5;
 }
 
 
 .Sign {
+<<<<<<< HEAD
 
   box-shadow: inset 0px 1px 0px 0px #fbafe3;
   background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
@@ -43,6 +43,22 @@ body
 
 .user
 {
+=======
+ box-shadow: inset 0px 1px 0px 0px #ffef22;
+ background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FFC107), color-stop(1, #FF5722) );
+ background-color: #FFC107;
+ -webkit-border-radius: 9px;
+ border: 1px solid #d48b07;
+ display: inline-block;
+ height: 40px;
+ line-height: 36px;
+ width: 100px;
+ text-align: center;
+ text-shadow: 1px 1px 0px #c70067;
+}
+
+.user {
+>>>>>>> 1ea42dc7bc4ea32a936730efa4a1256d78d8e13d
   width: 100px;
   height: 100px;
   border-radius:50%;
@@ -51,29 +67,29 @@ body
   top: calc(-100px/2);
   left: calc(50% - 50px);
 }
-h2
-{
+
+h2 {
   margin:0;
   padding: 0 0 20px;
-  color: #efed40;
+  color: #ffffff;
   text-align: center;
 }
 
-.loginBox p
-{
+.loginBox p {
   margin:0;
   padding: 0;
   font-weight: bold;
   color: #fff;
 }
 
-.loginBox input
-{
+.loginBox input {
   width: 100%;
   margin-bottom: 20px;
 }
+
 .loginBox input[type="text"],
 .loginBox input[type="password"]
+
 {
   border: none;
   border-bottom: 1px solid #fff;
@@ -100,23 +116,24 @@ h2
   cursor: pointer;
   border-radius: 20px;
 }
+
 .loginBox input[type="submit"]:hover
 {
   background: #ff6262;
   color: #262626;
 }
-.loginBox a
-{
 
-  color: #fff;
+.loginBox a {
+ color: #fff;
   font-size: 14px;
   font-weight: bold;
   margin-left: 80px;
   margin-bottom: 11px;
   text-decoration: none;
 }
+
 /*videos*/
-video{
+video {
 	/*width: 1200px;
 	height: 500px;*/
 	position: fixed;

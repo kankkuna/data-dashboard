@@ -2,49 +2,48 @@
  * Estilos de tu proyecto
  */
  *{
-   margin: 0px;
-   padding: 0px;
-   font-family: inherit;
-   font-weight: lighter;
-
+  margin: 0px;
+  padding: 0px;
+  font-family: inherit;
+  font-weight: lighter;
  }
 
  #perfil {
-   margin-top: 65px;
-     margin-left: 17px;
-     padding-bottom: 112px;
-     width: 65px;
-     height: 65px;
+  margin-top: 65px;
+  margin-left: 17px;
+  padding-bottom: 112px;
+  width: 65px;
+  height: 65px;
  }
 
  header {
    background-color: #FBFBFB;
-     margin-top: -10px;
-     padding-top: 0px;
-     height: 80px;
-     margin-right: 99px;
-     margin-left: 0px;
-     width: 100%;
-     box-shadow: 3px 0 10px grey;
+  margin-top: -10px;
+  padding-top: 0px;
+  height: 80px;
+  margin-right: 99px;
+  margin-left: 0px;
+  width: 100%;
+  box-shadow: 3px 0 10px grey;
  }
 
  header img {
-     width: 233px;
-     margin-top: 26px;
-     margin-left:615px;
+  width: 233px;
+  margin-top: 26px;
+  margin-left:615px;
  }
 
  nav img {
-   height: 40px;
-   width: 40px;
-   margin-top: 15px;
-   margin-right: 7px
+  height: 40px;
+  width: 40px;
+  margin-top: 15px;
+  margin-right: 7px
  }
 
  nav img:hover {
-   color: #fff;
-   cursor: pointer;
-   background-color: ##64b4db;
+  color: #fff;
+  cursor: pointer;
+  background-color: ##64b4db;
  }
 
  li > ul {
@@ -53,69 +52,51 @@
    left: 100%;
    width: 200px;
    box-shadow: 3px 0 10px grey;
-   /*box-shadow: 3px 0 10px rgba (0,0,0,0,.2);*/
-   -webkit-animation: aparecer .7s;
-     display: none;
-     border-radius: 5px;
+  -webkit-animation: aparecer .7s;
+   display: none;
+   border-radius: 5px;
  }
 
  /*Cuadro para el filtro*/
  ul {
-   list-style: none;
-   background: #ffc107;
-
+  list-style: none;
+  background: #ffc107;
  }
 
- #filtroBox{
+ #filtroBox {
    padding-top: 41px;
    padding-left: 10px;
    margin-bottom: 218px;
  }
 
-
- .container {
-   /*background: #f3f3f3;*/
-   position: fixed;
-   /*height: 100;*/
-   left: 0;
-   /*width: 200px;*/
-   top: 0;
-   box-shadow: 3px 0 10px rgba(0, 0, 0, .2);
-   -webkit-transition : left .5s ease;
-   -o-transition: left .5s ease;
-   z-index: 1000;
+  .container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, .2);
+    -webkit-transition : left .5s ease;
+    -o-transition: left .5s ease;
+    z-index: 1000;
  }
 
-
  #menu_principal a, label {
-
-   /*opacity: .6; (elegancia)
-   position: relative; ?*/
-   padding-right: 25px;
-   float: right;
-
-   font-size: 13px;
-
-   color: #868686;
-   display: block;
-   text-decoration: none;
-   -webkit-transition : all .5s ease;
-   -o-transition: all .5s ease;
+  padding-right: 25px;
+  float: right;
+  font-size: 13px;
+  color: #868686;
+  display: block;
+  text-decoration: none;
+  -webkit-transition : all .5s ease;
+  -o-transition: all .5s ease;
  }
 
  #menu_principal {
    position: fixed;
-   font-family: 'Montserrat', sans-serif;
-       /* margin-left: 220px; */
-       width: 106px;
-       height: 100%;
-       background-color: #1c1e1f;
-
-
-
-
-   /*padding-top: 50%;*/
- }
+   font-family:'Montserrat', sans-serif;
+   width: 106px;
+   height: 100%;
+   background-color: #1c1e1f;
+}
 
  #menu_principal li {
    height: 60px;
@@ -123,20 +104,19 @@
    width: 100%;
  }
 
-
  .boton:hover {
    left: 100%;
    cursor: pointer;
  }
 
-
  #menu_principal li:hover > a, #menu_principal li:hover > label {
-   color: #fff;
-   cursor: pointer;
-   background-color: ##64b4db;
+  color: #fff;
+  cursor: pointer;
+  background-color: ##64b4db;
  }
 
  nav ul li:hover > ul {
+<<<<<<< HEAD
    display: inherit;
 }
 
@@ -154,6 +134,16 @@
   border-radius: 20px;
   background-color: #ffa000;
 
+=======
+  display: inherit;
+}
+
+ section {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+ }
+>>>>>>> 1ea42dc7bc4ea32a936730efa4a1256d78d8e13d
 
 }
 
