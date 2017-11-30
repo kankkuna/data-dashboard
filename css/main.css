@@ -116,7 +116,6 @@
  }
 
  nav ul li:hover > ul {
-<<<<<<< HEAD
    display: inherit;
 }
 
@@ -133,8 +132,6 @@
   margin-left: 220px;
   border-radius: 20px;
   background-color: #ffa000;
-
-=======
   display: inherit;
 }
 
@@ -143,10 +140,3 @@
   height: 100px;
   background-color: red;
  }
->>>>>>> 1ea42dc7bc4ea32a936730efa4a1256d78d8e13d
-
-}
-
-select {
-  
-}
