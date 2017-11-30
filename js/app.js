@@ -21,37 +21,43 @@ window.addEventListener('load', function() {
     /*papa.appendChild('newdiv');
 });
 */
-
 window.addEventListener('load', function() {
-
  //variables por sede
- var lima = data.LIM;
- var arequipa = data.AQP;
- var mexico = data.CDMX;
- var chile = data.SCL;
+
+  var lima = data.LIM;
+  var arequipa = data.AQP;
+  var mexico = data.CDMX;
+  var chile = data.SCL;
 
  //variables por Bootcamp
 
- var boot1lim = data.LIM['2016-2'];
- var boot2lim = data.LIM['2017-1'];
- var boot3lim = data.LIM['2017-2'];
- var boot1aqp = data.AQP['2016-2'];
- var boot2aqp = data.AQP['2017-1'];
- var boot1cdmx = data.CDMX['2016-2'];
- var boot2cdmx = data.CDMX['2017-1'];
- var boot1scl = data.SCL['2016-2'];
- var boot2scl = data.SCL['2017-1'];
- var boot3scl = data.SCL['2017-2'];
+  var boot1lim = data.LIM['2016-2'];
+  var boot2lim = data.LIM['2017-1'];
+  var boot3lim = data.LIM['2017-2'];
+  var boot1aqp = data.AQP['2016-2'];
+  var boot2aqp = data.AQP['2017-1'];
+  var boot1cdmx = data.CDMX['2016-2'];
+  var boot2cdmx = data.CDMX['2017-1'];
+  var boot1scl = data.SCL['2016-2'];
+  var boot2scl = data.SCL['2017-1'];
+  var boot3scl = data.SCL['2017-2'];
 
  //coders por Bootcamp
- var coder1lim = data.LIM['2016-2']['students'];
- var coder2lim = data.LIM['2017-1']['students'];
- var coder3lim = data.LIM['2017-2']['students'];
- var coder1aqp = data.AQP['2016-2']['students'];
- var coder2aqp = data.AQP['2017-1']['students'];
- var coder1cdmx = data.CDMX['2017-1']['students'];
- var coder2cdmx = data.CDMX['2017-2']['students'];
- var coder1scl = data.SCL['2016-2']['students'];
- var coder2scl = data.SCL['2017-1']['students'];
- var coder3scl = data.SCL['2017-2']['students'];
+  var coder1lim = data.LIM['2016-2']['students'];
+  var coder2lim = data.LIM['2017-1']['students'];
+  var coder3lim = data.LIM['2017-2']['students'];
+  var coder1aqp = data.AQP['2016-2']['students'];
+  var coder2aqp = data.AQP['2017-1']['students'];
+  var coder1cdmx = data.CDMX['2017-1']['students'];
+  var coder2cdmx = data.CDMX['2017-2']['students'];
+  var coder1scl = data.SCL['2016-2']['students'];
+  var coder2scl = data.SCL['2017-1']['students'];
+  var coder3scl = data.SCL['2017-2']['students'];
+
+  var botonCoder = document.getElementById('coco');
+
+  botonCoder.addEventListener('click', function(event) {
+    event.preventDefault();
+    var stulima = document.appendChild();
+  });
 });

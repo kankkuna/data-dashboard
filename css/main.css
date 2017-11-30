@@ -135,5 +135,11 @@
   display: inherit;
 }
 
- 
 
+  .principal1 {
+  width: 100px;
+  height: 100px;
+  margin left: 700px;
+  margin-top: 90px;
+  display: inline-block;
+ }
