@@ -1,4 +1,4 @@
-/*
+ /*
  * Estilos de tu proyecto
  */
  *{
@@ -138,13 +138,25 @@
 
  nav ul li:hover > ul {
    display: inherit;
+}
 
-
- section {
+/*section {
    width: 100px;
    height: 100px;
    background-color: red;
- }
+   margin-left: 500px;
+ }*/
+
+  /*diseño de iconos*/
+/*karina*/
+.filters-data {
+  margin-left: 220px;
+  border-radius: 20px;
+  background-color: #ffa000;
 
 
- /*diseño de iconos*/
+}
+
+select {
+  
+}

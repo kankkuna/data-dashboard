@@ -20,6 +20,7 @@ body
   border-radius: 15px;
   background: #00BCD4;
   box-shadow: rgb(77, 104, 117) 0 0px 20px -1px;
+  opacity: 0.5;
 }
 
 
@@ -27,7 +28,7 @@ body
 
   box-shadow: inset 0px 1px 0px 0px #fbafe3;
   background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
-  background-color: #ff5bb0;
+  background-color: #ffa000;
   -webkit-border-radius: 9px;
   border: 1px solid #ee1eb5;
   display: inline-block;
@@ -38,10 +39,7 @@ body
   text-align: center;
   text-shadow: 1px 1px 0px #c70067;
 
-
 }
-
-
 
 .user
 {
@@ -128,4 +126,9 @@ video{
 	z-index: -1;
 	padding-top: 114px;
  background-color: skyblue;
+}
+
+/*karina*/
+a .Sign {
+  background-color: #ffa000;
 }
